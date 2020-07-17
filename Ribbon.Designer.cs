@@ -36,12 +36,12 @@
         {
             this.tab = this.Factory.CreateRibbonTab();
             this.group1 = this.Factory.CreateRibbonGroup();
-            this.group2 = this.Factory.CreateRibbonGroup();
-            this.group3 = this.Factory.CreateRibbonGroup();
             this.btnConvertToJson = this.Factory.CreateRibbonButton();
             this.btnConvertToMarkdown = this.Factory.CreateRibbonButton();
             this.btnConvertToSQL = this.Factory.CreateRibbonButton();
+            this.group2 = this.Factory.CreateRibbonGroup();
             this.btnExecuteSQL = this.Factory.CreateRibbonButton();
+            this.group3 = this.Factory.CreateRibbonGroup();
             this.btnGetFormulas = this.Factory.CreateRibbonButton();
             this.tab.SuspendLayout();
             this.group1.SuspendLayout();
@@ -64,18 +64,6 @@
             this.group1.Items.Add(this.btnConvertToSQL);
             this.group1.Label = "Converter";
             this.group1.Name = "group1";
-            // 
-            // group2
-            // 
-            this.group2.Items.Add(this.btnExecuteSQL);
-            this.group2.Label = "SQL";
-            this.group2.Name = "group2";
-            // 
-            // group3
-            // 
-            this.group3.Items.Add(this.btnGetFormulas);
-            this.group3.Label = "Other";
-            this.group3.Name = "group3";
             // 
             // btnConvertToJson
             // 
@@ -104,6 +92,12 @@
             this.btnConvertToSQL.SuperTip = "convert excel table of current worksheet to SQL";
             this.btnConvertToSQL.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnConvertToSQL_Click);
             // 
+            // group2
+            // 
+            this.group2.Items.Add(this.btnExecuteSQL);
+            this.group2.Label = "SQL";
+            this.group2.Name = "group2";
+            // 
             // btnExecuteSQL
             // 
             this.btnExecuteSQL.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
@@ -113,6 +107,12 @@
             this.btnExecuteSQL.ShowImage = true;
             this.btnExecuteSQL.SuperTip = "Execute SQL Query";
             this.btnExecuteSQL.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnExecuteSQL_Click);
+            // 
+            // group3
+            // 
+            this.group3.Items.Add(this.btnGetFormulas);
+            this.group3.Label = "Other";
+            this.group3.Name = "group3";
             // 
             // btnGetFormulas
             // 
