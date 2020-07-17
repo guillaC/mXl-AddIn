@@ -1,5 +1,5 @@
 # mExcelAddIn
-Simple vsto add in for Microsoft Excel
+Simple VSTO AddIn for Microsoft Excel
 
 ## Features
 
