@@ -4,7 +4,7 @@ Simple VSTO AddIn for Microsoft Excel
 ## Features
  - ✅ Convert tables to JSON (like https://github.com/guillaC/tableToJSON)
  - ✅ Convert tables to Markdown
- - ✅ Convert tables to SQL and run queries directly on Excel (using SQLite)
+ - ✅ Convert tables to SQL and run queries directly from Excel (using SQLite)
  - ✅ Recover all formulas
  - ⬜️ Obfuscate VBA Code
  - ⬜️ Disassemble P-Code
