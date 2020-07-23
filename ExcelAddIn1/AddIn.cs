@@ -250,14 +250,13 @@ namespace ExcelAddIn1
             try
             {
                 Excel.Range data = current.Cells.SpecialCells(Excel.XlCellType.xlCellTypeFormulas, Type.Missing);
-                //Excel.Range cell;
                 foreach (Excel.Range formula in data)
                 {
                     formulas.Add(formula.Address, formula.Formula);
                 }
             }
             catch { }
-
+            
             return formulas;
         }
 
