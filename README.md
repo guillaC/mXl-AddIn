@@ -6,8 +6,6 @@ Simple VSTO AddIn for Microsoft Excel
  - ✅ Convert tables to Markdown
  - ✅ Convert tables to SQL and run queries directly from Excel (using SQLite)
  - ✅ Recover all formulas
- - ⬜️ Obfuscate VBA Code
- - ⬜️ Disassemble P-Code
 
 ## Screenshots
 #### Ribbon:
