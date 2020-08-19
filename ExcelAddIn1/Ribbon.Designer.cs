@@ -54,7 +54,7 @@
             this.tab.Groups.Add(this.group1);
             this.tab.Groups.Add(this.group2);
             this.tab.Groups.Add(this.group3);
-            this.tab.Label = "AddIn";
+            this.tab.Label = "mxlAddIn";
             this.tab.Name = "tab";
             // 
             // group1
